@@ -8,14 +8,14 @@ import Router from 'koa-router';
 
 import ClientManager from './lib/ClientManager';
 
-const debug = Debug('localtunnel:server');
+const debug = Debug('unifytunnel:server');
 
 export default function(opt) {
     opt = opt || {};
 
     const validHosts = (opt.domain) ? [opt.domain] : undefined;
     const myTldjs = tldjs.fromUserSettings({ validHosts });
-    const landingPage = opt.landing || 'https://localtunnel.github.io/www/';
+    const landingPage = opt.landing || 'https://unify.chat';
 
     function GetClientIdFromHostname(hostname) {
         return myTldjs.getSubdomain(hostname);

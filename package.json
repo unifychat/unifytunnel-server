@@ -1,12 +1,12 @@
 {
   "author": "Roman Shtylman <shtylman@gmail.com>",
-  "name": "localtunnel-server",
+  "name": "unifytunnel-server",
   "description": "expose localhost to the world",
   "version": "0.0.8",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/localtunnel/server.git"
+    "url": "git://github.com/unifychat/unifytunnel.git"
   },
   "dependencies": {
     "book": "1.3.3",
