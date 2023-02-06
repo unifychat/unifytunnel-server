@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        ".gitignore": true,
+        ".vscode": true,
+        "dist": true,
+        "node_modules": true,
+        "package-lock.json": true,
+        "*.log": true,
+        ".env.*": true,
+        "tsconfig.json": true,
+        "tsconfig.eslint.json": true,
+        "Dockerfile": false,
+        "build.sh": false,
+        "package.json": false
+    },
+    "terminal.integrated.showExitAlert": false
+}
